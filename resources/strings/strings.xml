@@ -3,6 +3,10 @@
 
     <string id="prompt">Are you a human?</string>
 
-    <string id="menu_label_1">Item 1</string>
-    <string id="menu_label_2">Item 2</string>
+    <string id="menu_label_1">Start Session</string>
+    <string id="menu_label_2"> End Session </string>
+    <string id="check_hr">Checking for\n heart rate...</string>
+    <string id="rotate_hands">Please rotate\n your hands...</string>
+    <string id="shake_hands">Please shake\n your hands...</string>
+    <string id="verified">Congrats!\n We've verified\n you are human.\n </string>
 </strings>
