@@ -10,7 +10,6 @@ class WearableCAPTCHAApp extends Application.AppBase {
 
     // onStart() is called on application start up
     function onStart(state) {
-    	makeRequest();
     }
 
     // onStop() is called when your application is exiting
