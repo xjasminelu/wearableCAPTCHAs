@@ -1,6 +1,7 @@
 using Toybox.Application;
 using Toybox.WatchUi;
 
+
 class WearableCAPTCHAApp extends Application.AppBase {
 
     function initialize() {
