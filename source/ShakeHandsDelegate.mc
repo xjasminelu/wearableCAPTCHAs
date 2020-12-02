@@ -3,6 +3,7 @@ using Toybox.Communications;
 using Toybox.System;
 using Toybox.Time;
 using Toybox.Time.Gregorian;
+using Toybox.Application.Storage;
 
 class ShakeHandsDelegate extends WatchUi.BehaviorDelegate {
 
@@ -18,11 +19,13 @@ class ShakeHandsDelegate extends WatchUi.BehaviorDelegate {
     function onReceive(responseCode,data) {
     	System.println(responseCode);
     	System.println(data);
+    	Storage.setValue("lt_id", data.get("name"));
     }
     
     function makeRequest() {
     	var url= URL;
     	var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		Storage.setValue("lt_timeval", Time.now().value());
 		var dateString = Lang.format(
 		    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
 		    [
@@ -48,7 +51,9 @@ class ShakeHandsDelegate extends WatchUi.BehaviorDelegate {
     		:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
     	};
     	var responseCallback = method(:onReceive);
-    	
+    	Storage.setValue("lt_timestamp", dateString);
+    	Storage.setValue("lt_hv", "false");
+    	Storage.setValue("lt_vv", 0.355);
     	Communications.makeWebRequest(url, params, options, responseCallback);
     }
     
