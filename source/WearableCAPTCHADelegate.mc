@@ -21,6 +21,7 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
     	System.println(data);
     }
     
+    //temporary for testing - will remove for actual app
     function makeRequest() {
     	var url= URL;
     	var params= {
@@ -41,8 +42,6 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
     	// Push to one of 3 interfaces
     	
     	// temp - choose one on random number 1-3
-    	
-    	makeRequest();
     	
     	var r;
     	r = Mt.rand()%3;
