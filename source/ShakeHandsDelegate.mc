@@ -1,6 +1,8 @@
 using Toybox.WatchUi;
 using Toybox.Communications;
 using Toybox.System;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class ShakeHandsDelegate extends WatchUi.BehaviorDelegate {
 
@@ -13,14 +15,32 @@ class ShakeHandsDelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
     
+    function onReceive(responseCode,data) {
+    	System.println(responseCode);
+    	System.println(data);
+    }
+    
     function makeRequest() {
     	var url= URL;
+    	var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+		var dateString = Lang.format(
+		    "$1$:$2$:$3$ $4$ $5$ $6$ $7$",
+		    [
+		        today.hour,
+		        today.min,
+		        today.sec,
+		        today.day_of_week,
+		        today.day,
+		        today.month,
+		        today.year
+		    ]
+		);
     	var params= {
-    		"timestamp" => System.timestamp,
+    		"timestamp" => dateString,
     		"uID" => "user###temp###",
-    		"human_verified" => "No(temp)",
+    		"human_verified" => "false",
     		"verification_value" => 0.355,
-    		"stale" => false
+    		"stale" => "false"
     	};
     	var options= {
     		:method => Communications.HTTP_REQUEST_METHOD_POST,
