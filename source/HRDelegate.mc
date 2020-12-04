@@ -7,17 +7,17 @@ using Toybox.Application.Storage;
 using Toybox.ActivityMonitor;
 using Toybox.Activity;
 using Toybox.Attention;
+using Toybox.Timer;
 
 var s_hr;
 
 class HRDelegate extends WatchUi.BehaviorDelegate {
 
 	var verified=false;
-
-    function initialize() {
-        BehaviorDelegate.initialize();
-        //where to put this?? trigger it somewhere other than initialize? or on delay?
-        var hrIterator = ActivityMonitor.getHeartRateHistory(null, false);
+	var myTimer;
+	
+	function timerCallback() {
+		var hrIterator = ActivityMonitor.getHeartRateHistory(1, true);//# last few entries, t/f t-newest first, f-oldest first
 		var sample = hrIterator.next();    
 		while(sample!= null){
 		                               // get the previous HR
@@ -26,6 +26,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 	        		verified=true;
 	                System.println("Verified. Sample: " + sample.heartRate);
 	                s_hr = sample.heartRate;
+	                WatchUi.requestUpdate();
 	                var vibeData = null;
 	    			if (Attention has :vibrate) {
 			   		vibeData =
@@ -42,6 +43,13 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 	  	  	}
 	  	  	sample = hrIterator.next();
 	  	  }
+	}
+
+    function initialize() {
+        BehaviorDelegate.initialize();
+        myTimer = new Timer.Timer();
+    	//callback every 2 sec
+     	myTimer.start(method(:timerCallback), 2000, true);
 
     }
 
@@ -98,6 +106,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
     function onNextPage() {
     	//Run CAPTCHA Verification
     	//when the process is complete, push data to the database
+    	myTimer.stop();
     	if (verified!=false){
     	var vibeData = null;
     			if (Attention has :vibrate) {

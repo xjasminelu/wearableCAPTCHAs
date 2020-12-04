@@ -99,135 +99,141 @@
         <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAApp.mc" id="26" lineNum="89" pc="268437799" symbol="onStop"/>
         <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAApp.mc" id="27" lineNum="93" pc="268437804" symbol="getInitialView"/>
         <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAApp.mc" id="27" lineNum="94" pc="268437808" symbol="getInitialView"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="17" pc="268437876" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="18" pc="268437880" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="20" pc="268437898" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="21" pc="268437918" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="22" pc="268437931" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="24" pc="268437938" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="25" pc="268437945" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="26" pc="268437969" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="27" pc="268437979" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="28" pc="268438009" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="29" pc="268438025" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="30" pc="268438028" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="31" pc="268438043" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="40" pc="268438098" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="43" pc="268438122" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="50" pc="268438139" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="51" pc="268438143" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="52" pc="268438227" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="55" pc="268438231" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="56" pc="268438235" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="57" pc="268438253" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="58" pc="268438271" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="59" pc="268438303" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="62" pc="268438341" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="63" pc="268438345" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="64" pc="268438355" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="65" pc="268438399" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="66" pc="268438444" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="78" pc="268438586" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="85" pc="268438656" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="90" pc="268438738" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="91" pc="268438756" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="92" pc="268438779" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="93" pc="268438805" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="94" pc="268438831" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="95" pc="268438857" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="98" pc="268438882" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="101" pc="268438886" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="102" pc="268438900" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="103" pc="268438903" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="104" pc="268438918" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="113" pc="268438973" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="115" pc="268438994" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="116" pc="268439006" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="117" pc="268439078" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="35" lineNum="5" pc="268439082" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="35" lineNum="6" pc="268439086" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="36" lineNum="10" pc="268439105" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="36" lineNum="11" pc="268439109" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="37" lineNum="17" pc="268439147" symbol="onShow"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="38" lineNum="21" pc="268439152" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="38" lineNum="23" pc="268439156" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="39" lineNum="29" pc="268439177" symbol="onHide"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="41" lineNum="5" pc="268439182" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="41" lineNum="6" pc="268439186" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="42" lineNum="10" pc="268439205" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="42" lineNum="11" pc="268439209" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="43" lineNum="17" pc="268439247" symbol="onShow"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="44" lineNum="21" pc="268439252" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="44" lineNum="23" pc="268439256" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="45" lineNum="29" pc="268439277" symbol="onHide"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="47" lineNum="5" pc="268439282" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="47" lineNum="6" pc="268439286" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="48" lineNum="10" pc="268439305" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="48" lineNum="11" pc="268439309" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="49" lineNum="17" pc="268439347" symbol="onShow"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="50" lineNum="21" pc="268439352" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="50" lineNum="23" pc="268439356" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="51" lineNum="29" pc="268439377" symbol="onHide"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="53" lineNum="6" pc="268439382" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="53" lineNum="7" pc="268439386" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="10" pc="268439405" symbol="onMenuItem"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="11" pc="268439409" symbol="onMenuItem"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="13" pc="268439420" symbol="onMenuItem"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="14" pc="268439444" symbol="onMenuItem"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="16" pc="268439455" symbol="onMenuItem"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="56" lineNum="10" pc="268439480" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="56" lineNum="11" pc="268439484" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="57" lineNum="14" pc="268439503" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="57" lineNum="15" pc="268439507" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="57" lineNum="16" pc="268439591" symbol="onMenu"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="19" pc="268439595" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="20" pc="268439599" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="21" pc="268439617" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="22" pc="268439635" symbol="onReceive"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="25" pc="268439673" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="26" pc="268439677" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="27" pc="268439687" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="28" pc="268439731" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="29" pc="268439776" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="41" pc="268439918" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="48" pc="268439988" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="53" pc="268440070" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="54" pc="268440088" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="55" pc="268440111" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="56" pc="268440137" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="57" pc="268440163" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="58" pc="268440189" symbol="makeRequest"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="61" pc="268440214" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="64" pc="268440218" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="65" pc="268440230" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="66" pc="268440302" symbol="onNextPage"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="62" lineNum="5" pc="268440306" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="62" lineNum="6" pc="268440310" symbol="initialize"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="63" lineNum="10" pc="268440329" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="63" lineNum="11" pc="268440333" symbol="onLayout"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="64" lineNum="17" pc="268440371" symbol="onShow"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="65" lineNum="21" pc="268440376" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="65" lineNum="23" pc="268440380" symbol="onUpdate"/>
-        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="66" lineNum="29" pc="268440401" symbol="onHide"/>
-        <entry filename="Rez" id="72" lineNum="15" pc="268440406" symbol="VerifiedHumanLayout"/>
-        <entry filename="Rez" id="72" lineNum="18" pc="268440418" symbol="VerifiedHumanLayout"/>
-        <entry filename="Rez" id="72" lineNum="20" pc="268440582" symbol="VerifiedHumanLayout"/>
-        <entry filename="Rez" id="73" lineNum="29" pc="268440600" symbol="MainLayout"/>
-        <entry filename="Rez" id="73" lineNum="32" pc="268440612" symbol="MainLayout"/>
-        <entry filename="Rez" id="73" lineNum="34" pc="268440812" symbol="MainLayout"/>
-        <entry filename="Rez" id="74" lineNum="43" pc="268440830" symbol="ShakeHandsLayout"/>
-        <entry filename="Rez" id="74" lineNum="46" pc="268440842" symbol="ShakeHandsLayout"/>
-        <entry filename="Rez" id="74" lineNum="48" pc="268441042" symbol="ShakeHandsLayout"/>
-        <entry filename="Rez" id="75" lineNum="57" pc="268441060" symbol="RotateHandsLayout"/>
-        <entry filename="Rez" id="75" lineNum="60" pc="268441072" symbol="RotateHandsLayout"/>
-        <entry filename="Rez" id="75" lineNum="62" pc="268441272" symbol="RotateHandsLayout"/>
-        <entry filename="Rez" id="76" lineNum="71" pc="268441290" symbol="CheckHeartRateLayout"/>
-        <entry filename="Rez" id="76" lineNum="74" pc="268441302" symbol="CheckHeartRateLayout"/>
-        <entry filename="Rez" id="76" lineNum="76" pc="268441515" symbol="CheckHeartRateLayout"/>
-        <entry filename="Rez" id="79" lineNum="89" pc="268441533" symbol="initialize"/>
-        <entry filename="Rez" id="79" lineNum="90" pc="268441537" symbol="initialize"/>
-        <entry filename="Rez" id="79" lineNum="91" pc="268441555" symbol="initialize"/>
-        <entry filename="Rez" id="79" lineNum="92" pc="268441611" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="19" pc="268437876" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="20" pc="268437880" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="21" pc="268437904" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="22" pc="268437917" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="24" pc="268437924" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="25" pc="268437931" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="26" pc="268437955" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="27" pc="268437965" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="28" pc="268437995" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="29" pc="268438011" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="30" pc="268438027" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="31" pc="268438030" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="32" pc="268438045" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="41" pc="268438100" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="29" lineNum="44" pc="268438124" symbol="timerCallback"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="48" pc="268438141" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="49" pc="268438145" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="50" pc="268438163" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="30" lineNum="52" pc="268438197" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="58" pc="268438239" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="59" pc="268438243" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="31" lineNum="60" pc="268438327" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="63" pc="268438331" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="64" pc="268438335" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="65" pc="268438353" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="66" pc="268438371" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="32" lineNum="67" pc="268438403" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="70" pc="268438441" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="71" pc="268438445" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="72" pc="268438455" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="73" pc="268438499" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="74" pc="268438544" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="86" pc="268438686" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="93" pc="268438756" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="98" pc="268438838" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="99" pc="268438856" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="100" pc="268438879" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="101" pc="268438905" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="102" pc="268438931" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="33" lineNum="103" pc="268438957" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="106" pc="268438982" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="109" pc="268438986" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="110" pc="268439004" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="111" pc="268439018" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="112" pc="268439021" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="113" pc="268439036" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="122" pc="268439091" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="124" pc="268439112" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="125" pc="268439124" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/HRDelegate.mc" id="34" lineNum="126" pc="268439196" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="36" lineNum="5" pc="268439200" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="36" lineNum="6" pc="268439204" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="37" lineNum="10" pc="268439223" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="37" lineNum="11" pc="268439227" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="38" lineNum="17" pc="268439265" symbol="onShow"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="39" lineNum="21" pc="268439270" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="39" lineNum="23" pc="268439274" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/ShakeHandsView.mc" id="40" lineNum="29" pc="268439295" symbol="onHide"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="42" lineNum="5" pc="268439300" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="42" lineNum="6" pc="268439304" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="43" lineNum="10" pc="268439323" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="43" lineNum="11" pc="268439327" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="44" lineNum="17" pc="268439365" symbol="onShow"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="45" lineNum="21" pc="268439370" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="45" lineNum="23" pc="268439374" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAView.mc" id="46" lineNum="29" pc="268439395" symbol="onHide"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="48" lineNum="5" pc="268439400" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="48" lineNum="6" pc="268439404" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="49" lineNum="10" pc="268439423" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="49" lineNum="11" pc="268439427" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="50" lineNum="17" pc="268439465" symbol="onShow"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="51" lineNum="21" pc="268439470" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="51" lineNum="23" pc="268439474" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsView.mc" id="52" lineNum="29" pc="268439495" symbol="onHide"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="6" pc="268439500" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="54" lineNum="7" pc="268439504" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="55" lineNum="10" pc="268439523" symbol="onMenuItem"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="55" lineNum="11" pc="268439527" symbol="onMenuItem"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="55" lineNum="13" pc="268439538" symbol="onMenuItem"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="55" lineNum="14" pc="268439562" symbol="onMenuItem"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/WearableCAPTCHAMenuDelegate.mc" id="55" lineNum="16" pc="268439573" symbol="onMenuItem"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="57" lineNum="10" pc="268439598" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="57" lineNum="11" pc="268439602" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="14" pc="268439621" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="15" pc="268439625" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="58" lineNum="16" pc="268439709" symbol="onMenu"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="19" pc="268439713" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="20" pc="268439717" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="21" pc="268439735" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="59" lineNum="22" pc="268439753" symbol="onReceive"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="25" pc="268439791" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="26" pc="268439795" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="27" pc="268439805" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="28" pc="268439849" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="29" pc="268439894" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="41" pc="268440036" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="48" pc="268440106" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="53" pc="268440188" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="54" pc="268440206" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="55" pc="268440229" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="56" pc="268440255" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="57" pc="268440281" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="60" lineNum="58" pc="268440307" symbol="makeRequest"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="61" lineNum="61" pc="268440332" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="61" lineNum="64" pc="268440336" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="61" lineNum="65" pc="268440348" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/RotateHandsDelegate.mc" id="61" lineNum="66" pc="268440420" symbol="onNextPage"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="63" lineNum="5" pc="268440424" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="63" lineNum="6" pc="268440428" symbol="initialize"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="64" lineNum="10" pc="268440447" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="64" lineNum="11" pc="268440451" symbol="onLayout"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="65" lineNum="17" pc="268440489" symbol="onShow"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="66" lineNum="21" pc="268440494" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="66" lineNum="23" pc="268440498" symbol="onUpdate"/>
+        <entry filename="/Users/jasminelu/eclipse-workspace/WearableCAPTCHA/source/VerfiedHumanView.mc" id="67" lineNum="29" pc="268440519" symbol="onHide"/>
+        <entry filename="Rez" id="73" lineNum="15" pc="268440524" symbol="VerifiedHumanLayout"/>
+        <entry filename="Rez" id="73" lineNum="17" pc="268440536" symbol="VerifiedHumanLayout"/>
+        <entry filename="Rez" id="73" lineNum="19" pc="268440688" symbol="VerifiedHumanLayout"/>
+        <entry filename="Rez" id="74" lineNum="28" pc="268440706" symbol="MainLayout"/>
+        <entry filename="Rez" id="74" lineNum="30" pc="268440718" symbol="MainLayout"/>
+        <entry filename="Rez" id="74" lineNum="32" pc="268440900" symbol="MainLayout"/>
+        <entry filename="Rez" id="75" lineNum="41" pc="268440918" symbol="ShakeHandsLayout"/>
+        <entry filename="Rez" id="75" lineNum="43" pc="268440930" symbol="ShakeHandsLayout"/>
+        <entry filename="Rez" id="75" lineNum="45" pc="268441112" symbol="ShakeHandsLayout"/>
+        <entry filename="Rez" id="76" lineNum="54" pc="268441130" symbol="RotateHandsLayout"/>
+        <entry filename="Rez" id="76" lineNum="56" pc="268441142" symbol="RotateHandsLayout"/>
+        <entry filename="Rez" id="76" lineNum="58" pc="268441324" symbol="RotateHandsLayout"/>
+        <entry filename="Rez" id="77" lineNum="67" pc="268441342" symbol="CheckHeartRateLayout"/>
+        <entry filename="Rez" id="77" lineNum="69" pc="268441354" symbol="CheckHeartRateLayout"/>
+        <entry filename="Rez" id="77" lineNum="70" pc="268441549" symbol="CheckHeartRateLayout"/>
+        <entry filename="Rez" id="77" lineNum="72" pc="268441714" symbol="CheckHeartRateLayout"/>
+        <entry filename="Rez" id="80" lineNum="85" pc="268441742" symbol="initialize"/>
+        <entry filename="Rez" id="80" lineNum="86" pc="268441746" symbol="initialize"/>
+        <entry filename="Rez" id="80" lineNum="87" pc="268441764" symbol="initialize"/>
+        <entry filename="Rez" id="80" lineNum="88" pc="268441820" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -269,11 +275,11 @@
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="48" symbol="item_2"/>
-        <entry id="47" symbol="item_1"/>
+        <entry id="49" symbol="item_2"/>
+        <entry id="48" symbol="item_1"/>
         <entry id="28" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="45" method="true" symbol="markLastTransmissionStale"/>
+        <entry id="47" method="true" symbol="markLastTransmissionStale"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
@@ -290,7 +296,7 @@
         <entry id="10" object="true" symbol="WearableCAPTCHADelegate"/>
         <entry id="8388786" method="true" symbol="method"/>
         <entry id="8388644" module="true" symbol="System"/>
-        <entry id="49" symbol="end"/>
+        <entry id="50" symbol="end"/>
         <entry field="true" id="40" symbol="check_hr"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
@@ -302,6 +308,7 @@
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="45" symbol="myTimer"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="22" object="true" symbol="WearableCAPTCHAMenuDelegate"/>
@@ -360,45 +367,46 @@
         <entry endPc="268437798" name="lt_timeval" stackId="2" startPc="268437610"/>
         <entry arg="true" endPc="268437799" name="state" stackId="1" startPc="268437606"/>
         <entry arg="true" endPc="268437804" name="state" stackId="1" startPc="268437799"/>
-        <entry endPc="268438116" name="vibeData" stackId="3" startPc="268437969"/>
-        <entry endPc="268438138" name="hrIterator" stackId="1" startPc="268437880"/>
-        <entry endPc="268438138" name="sample" stackId="2" startPc="268437880"/>
-        <entry arg="true" endPc="268438341" name="responseCode" stackId="1" startPc="268438231"/>
-        <entry arg="true" endPc="268438341" name="data" stackId="2" startPc="268438231"/>
-        <entry endPc="268438881" name="today" stackId="2" startPc="268438345"/>
-        <entry endPc="268438881" name="options" stackId="5" startPc="268438345"/>
-        <entry endPc="268438881" name="url" stackId="1" startPc="268438345"/>
-        <entry endPc="268438881" name="responseCallback" stackId="6" startPc="268438345"/>
-        <entry endPc="268438881" name="dateString" stackId="3" startPc="268438345"/>
-        <entry endPc="268438881" name="params" stackId="4" startPc="268438345"/>
-        <entry endPc="268438991" name="vibeData" stackId="1" startPc="268438900"/>
-        <entry arg="true" endPc="268439147" name="dc" stackId="1" startPc="268439105"/>
-        <entry arg="true" endPc="268439177" name="dc" stackId="1" startPc="268439152"/>
-        <entry arg="true" endPc="268439247" name="dc" stackId="1" startPc="268439205"/>
-        <entry arg="true" endPc="268439277" name="dc" stackId="1" startPc="268439252"/>
-        <entry arg="true" endPc="268439347" name="dc" stackId="1" startPc="268439305"/>
-        <entry arg="true" endPc="268439377" name="dc" stackId="1" startPc="268439352"/>
-        <entry arg="true" endPc="268439480" name="item" stackId="1" startPc="268439405"/>
-        <entry arg="true" endPc="268439673" name="responseCode" stackId="1" startPc="268439595"/>
-        <entry arg="true" endPc="268439673" name="data" stackId="2" startPc="268439595"/>
-        <entry endPc="268440213" name="today" stackId="2" startPc="268439677"/>
-        <entry endPc="268440213" name="options" stackId="5" startPc="268439677"/>
-        <entry endPc="268440213" name="url" stackId="1" startPc="268439677"/>
-        <entry endPc="268440213" name="responseCallback" stackId="6" startPc="268439677"/>
-        <entry endPc="268440213" name="dateString" stackId="3" startPc="268439677"/>
-        <entry endPc="268440213" name="params" stackId="4" startPc="268439677"/>
-        <entry arg="true" endPc="268440371" name="dc" stackId="1" startPc="268440329"/>
-        <entry arg="true" endPc="268440401" name="dc" stackId="1" startPc="268440376"/>
-        <entry endPc="268440599" name="rez_cmp_local_text_7748549842" stackId="2" startPc="268440418"/>
-        <entry arg="true" endPc="268440600" name="dc" stackId="1" startPc="268440406"/>
-        <entry endPc="268440829" name="rez_cmp_local_text_8094441699" stackId="2" startPc="268440612"/>
-        <entry arg="true" endPc="268440830" name="dc" stackId="1" startPc="268440600"/>
-        <entry endPc="268441059" name="rez_cmp_local_text_1936014333" stackId="2" startPc="268440842"/>
-        <entry arg="true" endPc="268441060" name="dc" stackId="1" startPc="268440830"/>
-        <entry endPc="268441289" name="rez_cmp_local_text_5265434121" stackId="2" startPc="268441072"/>
-        <entry arg="true" endPc="268441290" name="dc" stackId="1" startPc="268441060"/>
-        <entry endPc="268441532" name="rez_cmp_local_text_hr_text" stackId="2" startPc="268441302"/>
-        <entry arg="true" endPc="268441533" name="dc" stackId="1" startPc="268441290"/>
+        <entry endPc="268438118" name="vibeData" stackId="3" startPc="268437955"/>
+        <entry endPc="268438140" name="hrIterator" stackId="1" startPc="268437880"/>
+        <entry endPc="268438140" name="sample" stackId="2" startPc="268437880"/>
+        <entry arg="true" endPc="268438441" name="responseCode" stackId="1" startPc="268438331"/>
+        <entry arg="true" endPc="268438441" name="data" stackId="2" startPc="268438331"/>
+        <entry endPc="268438981" name="today" stackId="2" startPc="268438445"/>
+        <entry endPc="268438981" name="options" stackId="5" startPc="268438445"/>
+        <entry endPc="268438981" name="url" stackId="1" startPc="268438445"/>
+        <entry endPc="268438981" name="responseCallback" stackId="6" startPc="268438445"/>
+        <entry endPc="268438981" name="dateString" stackId="3" startPc="268438445"/>
+        <entry endPc="268438981" name="params" stackId="4" startPc="268438445"/>
+        <entry endPc="268439109" name="vibeData" stackId="1" startPc="268439018"/>
+        <entry arg="true" endPc="268439265" name="dc" stackId="1" startPc="268439223"/>
+        <entry arg="true" endPc="268439295" name="dc" stackId="1" startPc="268439270"/>
+        <entry arg="true" endPc="268439365" name="dc" stackId="1" startPc="268439323"/>
+        <entry arg="true" endPc="268439395" name="dc" stackId="1" startPc="268439370"/>
+        <entry arg="true" endPc="268439465" name="dc" stackId="1" startPc="268439423"/>
+        <entry arg="true" endPc="268439495" name="dc" stackId="1" startPc="268439470"/>
+        <entry arg="true" endPc="268439598" name="item" stackId="1" startPc="268439523"/>
+        <entry arg="true" endPc="268439791" name="responseCode" stackId="1" startPc="268439713"/>
+        <entry arg="true" endPc="268439791" name="data" stackId="2" startPc="268439713"/>
+        <entry endPc="268440331" name="today" stackId="2" startPc="268439795"/>
+        <entry endPc="268440331" name="options" stackId="5" startPc="268439795"/>
+        <entry endPc="268440331" name="url" stackId="1" startPc="268439795"/>
+        <entry endPc="268440331" name="responseCallback" stackId="6" startPc="268439795"/>
+        <entry endPc="268440331" name="dateString" stackId="3" startPc="268439795"/>
+        <entry endPc="268440331" name="params" stackId="4" startPc="268439795"/>
+        <entry arg="true" endPc="268440489" name="dc" stackId="1" startPc="268440447"/>
+        <entry arg="true" endPc="268440519" name="dc" stackId="1" startPc="268440494"/>
+        <entry endPc="268440705" name="rez_cmp_local_text_8395491751" stackId="2" startPc="268440536"/>
+        <entry arg="true" endPc="268440706" name="dc" stackId="1" startPc="268440524"/>
+        <entry endPc="268440917" name="rez_cmp_local_text_1902695681" stackId="2" startPc="268440718"/>
+        <entry arg="true" endPc="268440918" name="dc" stackId="1" startPc="268440706"/>
+        <entry endPc="268441129" name="rez_cmp_local_text_1271419036" stackId="2" startPc="268440930"/>
+        <entry arg="true" endPc="268441130" name="dc" stackId="1" startPc="268440918"/>
+        <entry endPc="268441341" name="rez_cmp_local_text_1094307048" stackId="2" startPc="268441142"/>
+        <entry arg="true" endPc="268441342" name="dc" stackId="1" startPc="268441130"/>
+        <entry endPc="268441741" name="rez_cmp_local_text_hr_text" stackId="2" startPc="268441354"/>
+        <entry endPc="268441741" name="rez_cmp_local_text_hr_value" stackId="3" startPc="268441354"/>
+        <entry arg="true" endPc="268441742" name="dc" stackId="1" startPc="268441342"/>
     </localVars>
     <annotations/>
     <dataEntryOffsetMappings>
@@ -415,13 +423,13 @@
         <dataEntry offset="765" parentId="Rez" symbolId="Strings" type="module"/>
         <dataEntry offset="868" parentId="globals" symbolId="WearableCAPTCHAMenuDelegate" type="class"/>
         <dataEntry offset="923" parentId="globals" symbolId="HRDelegate" type="class"/>
-        <dataEntry offset="1010" parentId="globals" symbolId="ShakeHandsView" type="class"/>
-        <dataEntry offset="1089" parentId="globals" symbolId="ShakeHandsDelegate" type="class"/>
-        <dataEntry offset="1168" parentId="globals" symbolId="WearableCAPTCHAApp" type="class"/>
-        <dataEntry offset="1263" parentId="globals" symbolId="WearableCAPTCHAView" type="class"/>
-        <dataEntry offset="1342" parentId="globals" symbolId="RotateHandsDelegate" type="class"/>
-        <dataEntry offset="1421" parentId="globals" symbolId="VerifiedHumanView" type="class"/>
-        <dataEntry offset="1500" parentId="globals" symbolId="RotateHandsView" type="class"/>
+        <dataEntry offset="1026" parentId="globals" symbolId="ShakeHandsView" type="class"/>
+        <dataEntry offset="1105" parentId="globals" symbolId="ShakeHandsDelegate" type="class"/>
+        <dataEntry offset="1184" parentId="globals" symbolId="WearableCAPTCHAApp" type="class"/>
+        <dataEntry offset="1279" parentId="globals" symbolId="WearableCAPTCHAView" type="class"/>
+        <dataEntry offset="1358" parentId="globals" symbolId="RotateHandsDelegate" type="class"/>
+        <dataEntry offset="1437" parentId="globals" symbolId="VerifiedHumanView" type="class"/>
+        <dataEntry offset="1516" parentId="globals" symbolId="RotateHandsView" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="initialize" parent="WearableCAPTCHADelegate">
@@ -498,6 +506,9 @@
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="getInitialView" parent="WearableCAPTCHAApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="timerCallback" parent="HRDelegate">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="HRDelegate">
