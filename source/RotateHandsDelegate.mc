@@ -54,6 +54,7 @@ class RotateHandsDelegate extends WatchUi.BehaviorDelegate {
     	Storage.setValue("lt_timestamp", dateString);
     	Storage.setValue("lt_hv", "false");
     	Storage.setValue("lt_vv", 0.355);
+    	Storage.setValue("markedstale", "false");
     	Communications.makeWebRequest(url, params, options, responseCallback);
      }
     

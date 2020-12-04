@@ -8,6 +8,8 @@ using Toybox.ActivityMonitor;
 using Toybox.Activity;
 using Toybox.Attention;
 
+var s_hr;
+
 class HRDelegate extends WatchUi.BehaviorDelegate {
 
 	var verified=false;
@@ -16,25 +18,30 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
         BehaviorDelegate.initialize();
         //where to put this?? trigger it somewhere other than initialize? or on delay?
         var hrIterator = ActivityMonitor.getHeartRateHistory(null, false);
-		var sample = hrIterator.next();                                   // get the previous HR
-    	if (null != sample) {                                           // null check
-        	if (sample.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){ // check for invalid sample
-        		verified=true;
-                System.println("Verified. Sample: " + sample.heartRate);
-                var vibeData = null;
-    			if (Attention has :vibrate) {
-		   		vibeData =
-		    	[
-		        	new Attention.VibeProfile(50, 2000), // On for two seconds
-		        	//new Attention.VibeProfile(0, 2000),  // Off for two seconds
-		        	//new Attention.VibeProfile(50, 2000), // On for two seconds
-		        	//new Attention.VibeProfile(0, 2000),  // Off for two seconds
-		        	//new Attention.VibeProfile(50, 2000)  // on for two seconds
-		   	 	];
-				}
-				Attention.vibrate(vibeData);
-        	}
-  	  	}
+		var sample = hrIterator.next();    
+		while(sample!= null){
+		                               // get the previous HR
+	    	if (null != sample) {                                           // null check
+	        	if (sample.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){ // check for invalid sample
+	        		verified=true;
+	                System.println("Verified. Sample: " + sample.heartRate);
+	                s_hr = sample.heartRate;
+	                var vibeData = null;
+	    			if (Attention has :vibrate) {
+			   		vibeData =
+			    	[
+			        	new Attention.VibeProfile(50, 2000), // On for two seconds
+			        	//new Attention.VibeProfile(0, 2000),  // Off for two seconds
+			        	//new Attention.VibeProfile(50, 2000), // On for two seconds
+			        	//new Attention.VibeProfile(0, 2000),  // Off for two seconds
+			        	//new Attention.VibeProfile(50, 2000)  // on for two seconds
+			   	 	];
+					}
+					Attention.vibrate(vibeData);
+	        	}
+	  	  	}
+	  	  	sample = hrIterator.next();
+	  	  }
 
     }
 
@@ -84,6 +91,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
     	Storage.setValue("lt_timestamp", dateString);
     	Storage.setValue("lt_hv", "false");
     	Storage.setValue("lt_vv", 0.355);
+    	Storage.setValue("markedstale", "false");
     	Communications.makeWebRequest(url, params, options, responseCallback);
     }
 
