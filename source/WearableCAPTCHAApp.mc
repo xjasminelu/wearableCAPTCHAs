@@ -21,31 +21,35 @@ class WearableCAPTCHAApp extends Application.AppBase {
     function onReceive(responseCode,data) {
     	System.println(responseCode);
     	System.println(data);
+    	Storage.setValue("markedstale", "true");
     }
 
     function markLastTransmissionStale() {
-    	var lt_id = Storage.getValue("lt_id");
-    	var lt_timestamp = Storage.getValue("lt_timestamp");
-    	var lt_hv = Storage.getValue("lt_hv");
-    	var lt_vv = Storage.getValue("lt_vv");
-
-    	var url="https://networks-fall2020.firebaseio.com/networks-fall2020/client/" + lt_id + ".json";
-    	var params = {
-    		"timestamp" => lt_timestamp,
-    		"uID" => "user###temp###",
-    		"human_verified" => lt_hv,
-    		"verification_value" => lt_vv,
-    		"stale" => "true"
-    	};
-    	var options= {
-    		:method => Communications.HTTP_REQUEST_METHOD_PUT,
-    		:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
-    		:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-    	};
-
-    	var responseCallback = method(:onReceive);
-
-    	Communications.makeWebRequest(url, params, options, responseCallback);
+    	if(Storage.getValue("markedstale") == "false"){
+    		var lt_id = Storage.getValue("lt_id");
+	    	var lt_timestamp = Storage.getValue("lt_timestamp");
+	    	var lt_hv = Storage.getValue("lt_hv");
+	    	var lt_vv = Storage.getValue("lt_vv");
+	
+	    	var url="https://networks-fall2020.firebaseio.com/networks-fall2020/client/" + lt_id + ".json";
+	    	var params = {
+	    		"timestamp" => lt_timestamp,
+	    		"uID" => "user###temp###",
+	    		"human_verified" => lt_hv,
+	    		"verification_value" => lt_vv,
+	    		"stale" => "true"
+	    	};
+	    	var options= {
+	    		:method => Communications.HTTP_REQUEST_METHOD_PUT,
+	    		:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
+	    		:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+	    	};
+	
+	    	var responseCallback = method(:onReceive);
+	
+	    	Communications.makeWebRequest(url, params, options, responseCallback);
+    	}
+    	
     }
 
     function timerCallback() {

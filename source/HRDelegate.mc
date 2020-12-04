@@ -17,7 +17,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 	var myTimer;
 	
 	function timerCallback() {
-		var hrIterator = ActivityMonitor.getHeartRateHistory(1, true);//# last few entries, t/f t-newest first, f-oldest first
+		var hrIterator = ActivityMonitor.getHeartRateHistory(5, true);//# last few entries, t/f t-newest first, f-oldest first
 		var sample = hrIterator.next();    
 		while(sample!= null){
 		                               // get the previous HR
