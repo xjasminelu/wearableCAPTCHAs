@@ -15,12 +15,12 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
         WatchUi.pushView(new Rez.Menus.MainMenu(), new WearableCAPTCHAMenuDelegate(), WatchUi.SLIDE_UP);
         return true;
     }
-    
+
     function onReceive(responseCode,data) {
     	System.println(responseCode);
     	System.println(data);
     }
-    
+
     //temporary for testing - will remove for actual app
     function makeRequest() {
     	var url= URL;
@@ -33,19 +33,20 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
     		:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
     	};
     	var responseCallback = method(:onReceive);
-    	
+
     	Communications.makeWebRequest(url, params, options, responseCallback);
     }
-    
+
     function onNextPage() {
     	//If ready for next captcha var = true
     	// Push to one of 3 interfaces
-    	
+
     	// temp - choose one on random number 1-3
     	if (checkCaptcha) {
 	    	var r;
-	    	r = Mt.rand()%3;
-	    	if (r == 0) {
+	    	//r = Mt.rand()%3;
+        r=0;
+        if (r == 0) {
 	    		WatchUi.pushView(new CheckHRView(), new HRDelegate(), WatchUi.SLIDE_UP);
 	    	}
 	    	else if(r == 1) {
@@ -55,10 +56,10 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
 	    		WatchUi.pushView(new ShakeHandsView(), new HRDelegate(), WatchUi.SLIDE_UP);
     		}
     		checkCaptcha = false;
-    	
+
     	}
-    	
-    	
+
+
         return true;
     }
 
