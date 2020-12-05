@@ -10,6 +10,7 @@ using Toybox.Attention;
 using Toybox.Timer;
 
 var s_hr;
+var captcha_mode = false;
 
 class HRDelegate extends WatchUi.BehaviorDelegate {
 
@@ -17,18 +18,25 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 	var myTimer;
 	
 	function timerCallback() {
-		var hrIterator = ActivityMonitor.getHeartRateHistory(5, true);//# last few entries, t/f t-newest first, f-oldest first
-		var sample = hrIterator.next();    
-		while(sample!= null){
-		                               // get the previous HR
+		var hrIterator = ActivityMonitor.getHeartRateHistory(1, true);//# last few entries, t/f t-newest first, f-oldest first
+		var sample = hrIterator.next();     // get the previous HR
 	    	if (null != sample) {                                           // null check
 	        	if (sample.heartRate != ActivityMonitor.INVALID_HR_SAMPLE){ // check for invalid sample
 	        		verified=true;
-	                System.println("Verified. Sample: " + sample.heartRate);
-	                s_hr = sample.heartRate;
-	                WatchUi.requestUpdate();
+	        		System.println("Verified. Sample: " + sample.when);
+	        		if(sample.when.subtract(Time.now()).value() <= 5)
+	        		{
+	        			System.println("Verified. Sample: " + sample.heartRate);
+	                	s_hr = sample.heartRate;
+	                	WatchUi.requestUpdate();
+	        		}
+	        		else{
+	        			s_hr = "--";
+	        			WatchUi.requestUpdate();
+	        		}
+	                
 	                var vibeData = null;
-	    			if (Attention has :vibrate) {
+	    			/*if (Attention has :vibrate) {
 			   		vibeData =
 			    	[
 			        	new Attention.VibeProfile(50, 2000), // On for two seconds
@@ -38,11 +46,13 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 			        	//new Attention.VibeProfile(50, 2000)  // on for two seconds
 			   	 	];
 					}
-					Attention.vibrate(vibeData);
+					Attention.vibrate(vibeData);*/
+	        	}
+	        	else {
+	        		s_hr = "--";
+	                WatchUi.requestUpdate();
 	        	}
 	  	  	}
-	  	  	sample = hrIterator.next();
-	  	  }
 	}
 
     function initialize() {
@@ -50,6 +60,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
         myTimer = new Timer.Timer();
     	//callback every 2 sec
      	myTimer.start(method(:timerCallback), 2000, true);
+     	captcha_mode = true;
 
     }
 
@@ -122,6 +133,7 @@ class HRDelegate extends WatchUi.BehaviorDelegate {
 				Attention.vibrate(vibeData);
     	}
     	makeRequest();
+    	captcha_mode = false;
     	WatchUi.pushView(new VerifiedHumanView(), new WearableCAPTCHADelegate(), WatchUi.SLIDE_UP);
         return true;
     }

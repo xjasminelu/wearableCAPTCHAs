@@ -53,21 +53,25 @@ class WearableCAPTCHAApp extends Application.AppBase {
     }
 
     function timerCallback() {
-    	checkCaptcha = true;
-    	var vibeData = null;
-    	if (Attention has :vibrate) {
-		    vibeData =
-		    [
-		        new Attention.VibeProfile(50, 1000), // On for two seconds
-		        //new Attention.VibeProfile(0, 2000),  // Off for two seconds
-		        //new Attention.VibeProfile(50, 2000), // On for two seconds
-		        //new Attention.VibeProfile(0, 2000),  // Off for two seconds
-		        //new Attention.VibeProfile(50, 2000)  // on for two seconds
-		    ];
-		}
-		Attention.vibrate(vibeData);
-		WatchUi.pushView(new WearableCAPTCHAView(), new WearableCAPTCHADelegate(), WatchUi.SLIDE_UP);
-		markLastTransmissionStale();
+    	if(!captcha_mode) {
+    	
+	    	checkCaptcha = true;
+	    	var vibeData = null;
+	    	if (Attention has :vibrate) {
+			    vibeData =
+			    [
+			        new Attention.VibeProfile(50, 1000), // On for two seconds
+			        //new Attention.VibeProfile(0, 2000),  // Off for two seconds
+			        //new Attention.VibeProfile(50, 2000), // On for two seconds
+			        //new Attention.VibeProfile(0, 2000),  // Off for two seconds
+			        //new Attention.VibeProfile(50, 2000)  // on for two seconds
+			    ];
+			}
+			Attention.vibrate(vibeData);
+			WatchUi.pushView(new WearableCAPTCHAView(), new WearableCAPTCHADelegate(), WatchUi.SLIDE_UP);
+			markLastTransmissionStale();
+    	}
+    	
     }
 
     // onStart() is called on application start up

@@ -22,7 +22,13 @@ class CheckHRView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc) {
-    	var hr = s_hr +"";
+    	var hr = "--";
+    	if (s_hr == null){
+    		hr = "--";
+    	}
+    	else {
+    		hr = s_hr + "";
+    	}
     	mLabel.setText(hr);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
