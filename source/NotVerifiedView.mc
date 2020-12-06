@@ -1,14 +1,14 @@
 using Toybox.WatchUi;
 
-class RotateHandsView extends WatchUi.View {
-	
+class NotVerifiedView extends WatchUi.View {
+
     function initialize() {
         View.initialize();
     }
 
     // Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.RotateHandsLayout(dc));
+        setLayout(Rez.Layouts.NotVerifiedLayout(dc));
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -19,7 +19,7 @@ class RotateHandsView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc) {
-        // Call the parent onUpdate function to redraw the layout 	
+        // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
 

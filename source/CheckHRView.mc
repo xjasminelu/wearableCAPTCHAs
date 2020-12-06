@@ -11,7 +11,7 @@ class CheckHRView extends WatchUi.View {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.CheckHeartRateLayout(dc));
-        mLabel = View.findDrawableById("hr_text");
+        mLabel = View.findDrawableById("hr_value");
     }
 
     // Called when this View is brought to the foreground. Restore

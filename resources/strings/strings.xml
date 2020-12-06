@@ -9,5 +9,6 @@
     <string id="rotate_hands">Please rotate\n your hands...</string>
     <string id="shake_hands">Please shake\n your hands...</string>
     <string id="verified">Congrats!\n We've verified\n you are human.\n </string>
+    <string id="not_verified">Sorry!\n We can't be sure\n you are human.\n </string>
     <string id="hr_test">placeholder</string>
 </strings>

@@ -16,27 +16,6 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
         return true;
     }
 
-    function onReceive(responseCode,data) {
-    	System.println(responseCode);
-    	System.println(data);
-    }
-
-    //temporary for testing - will remove for actual app
-    function makeRequest() {
-    	var url= URL;
-    	var params= {
-    		"test" => "button press"
-    	};
-    	var options= {
-    		:method => Communications.HTTP_REQUEST_METHOD_POST,
-    		:headers => {"Content-Type" => Communications.REQUEST_CONTENT_TYPE_JSON},
-    		:responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
-    	};
-    	var responseCallback = method(:onReceive);
-
-    	Communications.makeWebRequest(url, params, options, responseCallback);
-    }
-
     function onNextPage() {
     	//If ready for next captcha var = true
     	// Push to one of 3 interfaces
@@ -44,16 +23,16 @@ class WearableCAPTCHADelegate extends WatchUi.BehaviorDelegate {
     	// temp - choose one on random number 1-3
     	if (checkCaptcha) {
 	    	var r;
-	    	//r = Mt.rand()%3;
-        r=0;
+	    	r = Mt.rand()%3;
+        //r=0; //for testing each page - Remove for full version
         if (r == 0) {
 	    		WatchUi.pushView(new CheckHRView(), new HRDelegate(), WatchUi.SLIDE_UP);
 	    	}
 	    	else if(r == 1) {
-	    		WatchUi.pushView(new RotateHandsView(), new HRDelegate(), WatchUi.SLIDE_UP);
+	    		WatchUi.pushView(new RotateHandsView(), new RotateHandsDelegate(), WatchUi.SLIDE_UP);
 	    	}
 	    	else {
-	    		WatchUi.pushView(new ShakeHandsView(), new HRDelegate(), WatchUi.SLIDE_UP);
+	    		WatchUi.pushView(new ShakeHandsView(), new ShakeHandsDelegate(), WatchUi.SLIDE_UP);
     		}
     		checkCaptcha = false;
 
