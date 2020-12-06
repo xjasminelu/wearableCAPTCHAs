@@ -1,4 +1,5 @@
 using Toybox.WatchUi;
+using Toybox.Application;
 using Toybox.System;
 
 class WearableCAPTCHAMenuDelegate extends WatchUi.MenuInputDelegate {
@@ -10,10 +11,10 @@ class WearableCAPTCHAMenuDelegate extends WatchUi.MenuInputDelegate {
     function onMenuItem(item) {
         if (item == :item_1) {
         //start session start timer
-            System.println("item 1");
+            WatchUi.pushView(new WearableCAPTCHAView(), new WearableCAPTCHADelegate(), WatchUi.SLIDE_UP);
         } else if (item == :item_2) {
         // stop session stop timer
-            System.println("item 2");
+        	System.exit();
         }
     }
 

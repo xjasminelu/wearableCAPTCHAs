@@ -1,7 +1,9 @@
 using Toybox.WatchUi;
+using Toybox.Time;
 
 class CheckHRView extends WatchUi.View {
 
+	hidden var mLabel;
     function initialize() {
         View.initialize();
     }
@@ -9,6 +11,7 @@ class CheckHRView extends WatchUi.View {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.CheckHeartRateLayout(dc));
+        mLabel = View.findDrawableById("hr_value");
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -19,6 +22,14 @@ class CheckHRView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc) {
+    	var hr = "--";
+    	if (s_hr == null){
+    		hr = "--";
+    	}
+    	else {
+    		hr = s_hr + "";
+    	}
+    	mLabel.setText(hr);
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
